@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cv</title>
+    <style>
+        
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .clear{
+            clear: both;
+        }
+        
+        .container{
+            margin: 0 auto;
+            width:1000px;
+        }
+        
+        h1{
+            font-size: 35px;
+            color: #333;
+        }
+        
+        h3{
+            font-size: 25px;
+            color:#333;
+            text-decoration: underline;
+            display: inline-block;
+        }
+        
+        
+       .about-right, .edu-right,{
+            border: 1px solid grey;
+            margin-right: 40px;
+            padding: 20px;
+            float: left;
+            width: 600px;
+        }
+        
+        .header-right{
+            float:right;
+        }
+        
+        .skills-right{
+            margin-right: 40px;
+            padding: 20px;
+            float: left;
+            width: 600px;
+        }
+        
+        .header-left, .about-left,  .edu-left{
+            padding: 10px;
+            float: left;
+            width: 300px;
+        }
+        
+        .skills-left{
+            padding: 10px;
+            float: left;
+            width: 200px; 
+        }
+        
+        .edu-right>ul{
+            list-style: square;
+        }
+        
+        .edu-right>ul>li{
+            font-style: italic;
+            margin: 9px 0;
+        }
+        
+        .skills-right>ul{
+            list-style: none;
+        }
+        
+        .skills-right>ul>li{
+            display: inline;
+            border: 1px solid seagreen;
+            padding:10px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        
+        .contact>p>a{
+            text-decoration: none;
+            letter-spacing: 2px;
+            color: dodgerblue;
+            font-weight: 700;
+        }
+        
+        .contact>p>a:hover{
+            font-style: italic;
+            text-decoration: underline;
+        }
+        
+        p, li{
+            color: dodgerblue;
+            font-weight: 500;
+        }
+        
+        .header-right>ul>li{
+             display: inline;
+             margin-top:10px;
+        }
+        
+        .header-right>ul>li>a{
+            text-decoration: none;
+            color: #333;
+            font-size: 20px;
+            padding:20px;
+        }
+        
+        
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-left">
+                <h1>Hamza Anwer</h1>
+            </div>
+            
+            <div class="header-right">
+                <ul>
+                    <li><a href="#goToAbout">About</a></li>
+                    <li><a href="#goToEdu">Education</a></li>
+                    <li><a href="#goToSkills">Skills</a></li>
+                    <li><a href="#goToContact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="clear"></div>
+            
+        </div>
+        
+        <div class="about" id="goToAbout">
+            
+            <div class="about-left">
+                <h3>About</h3>
+            </div>
+            
+            <div class="about-right">
+                <p>Name: Hamza Anwer</p>
+                <p>Father Name: Anwer Aziz</p>
+                <p><a href="mailto:hamza.anwer8@gmail.com">Email: hamza.anwer8@gmail.com</a></p>
+            </div>
+            
+            <div class="clear"></div>
+        </div> <!--About Sec-->
+        
+        <hr>
+        
+        <div class="edu" id="goToEdu">
+            <div class="edu-left">
+                <h3>Education</h3>
+            </div>
+            
+            <div class="edu-right">
+                <ul>
+                    <li>Matriculation from Bright Career School </li>
+                    <li>Intermediate from Govt. Degree College </li>
+                    <li>Graduation From Karachi University 2013-Present</li>
+                </ul>
+            </div>
+            
+            <div class="clear"></div>
+            
+        </div> <!--Edu-sec-->
+        
+        <hr>
+        
+        <div class="skills" id="goToSkills">
+            <div class="skills-left">
+                <h3>Skills</h3> 
+            </div>
+             
+             <div class="skills-right">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Bootstrap</li>
+                    <li>JQuery</li>
+                    <li>C#</li>
+                </ul>
+             </div>
+             
+             <div class="clear"></div>
+             
+        </div> <!--Skills Sec-->
+        
+       <hr>
+       
+       <div class="contact" id="goToContact">
+           <h1>Contact</h1>
+           <h3>Address:</h3>
+           <p>Area #5/D, Block #50, House # 10</p>
+           
+            <h3>Phone</h3>
+            <p>03402291272</p>
+            
+            <h3>URL</h3>
+            <p><a href=""> www.facebook.com/hamzaa.official </a></p>
+            
+            <h3>Social</h3>
+            <p><a href="www.github.com/imHamzaAnwer" target="_blank">Github</a></p>
+            <p><a href="www.stackoverflow.com" target="_blank">Stack Overflow</a></p>
+            <p><a href="www.firebase.com" target="_blank">Firebase</a></p>
+       </div>
+       
+    </div>
+</body>
+</html>
